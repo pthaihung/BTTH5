@@ -1,0 +1,529 @@
+[
+  {
+    "case": "stage-00-chat_A_original_35bd1917",
+    "trace": "evidence/stage-00-chat_A_original_35bd1917/20261007-123455_85e80244_turn01_35bd1917.jsonl",
+    "final_sequence": 4,
+    "final_type": "run_completed",
+    "conversation_id": "85e80244316b44a2adf957a4e7ddca72",
+    "first_snapshot_clean": true,
+    "schema_tools": [],
+    "tool_results": [],
+    "model_request_sequences": [
+      2
+    ]
+  },
+  {
+    "case": "stage-01-files_A_original_ab3101bf",
+    "trace": "evidence/stage-01-files_A_original_ab3101bf/20261007-123514_dba7db2d_turn01_ab3101bf.jsonl",
+    "final_sequence": 22,
+    "final_type": "run_completed",
+    "conversation_id": "dba7db2dfc5541d1bbf79251246244fc",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "list_files",
+        "path": ".",
+        "ok": true
+      },
+      {
+        "sequence": 9,
+        "name": "list_files",
+        "path": "data",
+        "ok": true
+      },
+      {
+        "sequence": 13,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 18,
+        "name": "read_file",
+        "path": "data/policies/policy-from-oct.md",
+        "ok": true
+      },
+      {
+        "sequence": 19,
+        "name": "read_file",
+        "path": "data/policies/policy-before-oct.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      10,
+      14,
+      20
+    ]
+  },
+  {
+    "case": "stage-01-files_A_renamed_a2d301d4",
+    "trace": "evidence/stage-01-files_A_renamed_a2d301d4/20261007-123604_babb0338_turn01_a2d301d4.jsonl",
+    "final_sequence": 24,
+    "final_type": "run_completed",
+    "conversation_id": "babb033872da47239fa81c1f91124603",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "list_files",
+        "path": ".",
+        "ok": true
+      },
+      {
+        "sequence": 9,
+        "name": "list_files",
+        "path": "data",
+        "ok": true
+      },
+      {
+        "sequence": 14,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 15,
+        "name": "read_file",
+        "path": "data/weekly_notes.md",
+        "ok": true
+      },
+      {
+        "sequence": 20,
+        "name": "read_file",
+        "path": "data/policies/document-2-a2d301d4.md",
+        "ok": true
+      },
+      {
+        "sequence": 21,
+        "name": "read_file",
+        "path": "data/policies/document-1-a2d301d4.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      10,
+      16,
+      22
+    ]
+  },
+  {
+    "case": "stage-01-files_B_original_8870dba2",
+    "trace": "evidence/stage-01-files_B_original_8870dba2/20261007-123541_d724f920_turn01_8870dba2.jsonl",
+    "final_sequence": 20,
+    "final_type": "run_completed",
+    "conversation_id": "d724f920207e435598aaee2a1dc53060",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "list_files",
+        "path": ".",
+        "ok": true
+      },
+      {
+        "sequence": 9,
+        "name": "list_files",
+        "path": "data",
+        "ok": true
+      },
+      {
+        "sequence": 13,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 17,
+        "name": "read_file",
+        "path": "data/policies/policy-from-oct.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      10,
+      14,
+      18
+    ]
+  },
+  {
+    "case": "stage-01-files_B_renamed_9bf6a11f",
+    "trace": "evidence/stage-01-files_B_renamed_9bf6a11f/20261007-123637_1a3ef021_turn01_9bf6a11f.jsonl",
+    "final_sequence": 24,
+    "final_type": "run_completed",
+    "conversation_id": "1a3ef0214be14762acce79aa17c683fa",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "list_files",
+        "path": ".",
+        "ok": true
+      },
+      {
+        "sequence": 10,
+        "name": "list_files",
+        "path": "data",
+        "ok": true
+      },
+      {
+        "sequence": 11,
+        "name": "read_file",
+        "path": ".lab-workspace",
+        "ok": true
+      },
+      {
+        "sequence": 15,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 20,
+        "name": "read_file",
+        "path": "data/policies/document-1-9bf6a11f.md",
+        "ok": true
+      },
+      {
+        "sequence": 21,
+        "name": "read_file",
+        "path": "data/policies/document-2-9bf6a11f.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      12,
+      16,
+      22
+    ]
+  },
+  {
+    "case": "stage-02-skills_A_original_743b85b1",
+    "trace": "evidence/stage-02-skills_A_original_743b85b1/20261007-123701_fa99ae28_turn01_743b85b1.jsonl",
+    "final_sequence": 22,
+    "final_type": "run_completed",
+    "conversation_id": "fa99ae281cf34466ac6fac83652377de",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/refund-policy/SKILL.md",
+        "ok": true
+      },
+      {
+        "sequence": 9,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 14,
+        "name": "read_file",
+        "path": "data/policies/policy-from-oct.md",
+        "ok": true
+      },
+      {
+        "sequence": 15,
+        "name": "read_file",
+        "path": "data/policies/policy-before-oct.md",
+        "ok": true
+      },
+      {
+        "sequence": 19,
+        "name": "read_file",
+        "path": "skills/refund-policy/references/answer-template.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      10,
+      16,
+      20
+    ]
+  },
+  {
+    "case": "stage-02-skills_A_renamed_c5a5a4e6",
+    "trace": "evidence/stage-02-skills_A_renamed_c5a5a4e6/20261007-123748_2e2e4807_turn01_c5a5a4e6.jsonl",
+    "final_sequence": 20,
+    "final_type": "run_completed",
+    "conversation_id": "2e2e48076b7645e39b3f2c9b75cf5be1",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/refund-policy/SKILL.md",
+        "ok": true
+      },
+      {
+        "sequence": 10,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 11,
+        "name": "read_file",
+        "path": "skills/refund-policy/references/answer-template.md",
+        "ok": true
+      },
+      {
+        "sequence": 16,
+        "name": "read_file",
+        "path": "data/policies/document-1-c5a5a4e6.md",
+        "ok": true
+      },
+      {
+        "sequence": 17,
+        "name": "read_file",
+        "path": "data/policies/document-2-c5a5a4e6.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      12,
+      18
+    ]
+  },
+  {
+    "case": "stage-02-skills_B_original_8fee5294",
+    "trace": "evidence/stage-02-skills_B_original_8fee5294/20261007-123728_fc8c65e8_turn01_8fee5294.jsonl",
+    "final_sequence": 20,
+    "final_type": "run_completed",
+    "conversation_id": "fc8c65e840bd416d82bdca39993145b9",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/refund-policy/SKILL.md",
+        "ok": true
+      },
+      {
+        "sequence": 10,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 11,
+        "name": "read_file",
+        "path": "skills/refund-policy/references/answer-template.md",
+        "ok": true
+      },
+      {
+        "sequence": 16,
+        "name": "read_file",
+        "path": "data/policies/policy-before-oct.md",
+        "ok": true
+      },
+      {
+        "sequence": 17,
+        "name": "read_file",
+        "path": "data/policies/policy-from-oct.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      12,
+      18
+    ]
+  },
+  {
+    "case": "stage-02-skills_B_renamed_8219b2f1",
+    "trace": "evidence/stage-02-skills_B_renamed_8219b2f1/20261007-123812_fcaeadba_turn01_8219b2f1.jsonl",
+    "final_sequence": 22,
+    "final_type": "run_completed",
+    "conversation_id": "fcaeadba313242719b634d81d99e9611",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/refund-policy/SKILL.md",
+        "ok": true
+      },
+      {
+        "sequence": 9,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 14,
+        "name": "read_file",
+        "path": "data/policies/document-2-8219b2f1.md",
+        "ok": true
+      },
+      {
+        "sequence": 15,
+        "name": "read_file",
+        "path": "data/policies/document-1-8219b2f1.md",
+        "ok": true
+      },
+      {
+        "sequence": 19,
+        "name": "read_file",
+        "path": "skills/refund-policy/references/answer-template.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      10,
+      16,
+      20
+    ]
+  },
+  {
+    "case": "stage-02-skills_missing_original_0d04b0fd",
+    "trace": "evidence/stage-02-skills_missing_original_0d04b0fd/20261007-124353_1fdc72ad_turn01_0d04b0fd.jsonl",
+    "final_sequence": 3,
+    "final_type": "run_failed",
+    "conversation_id": "1fdc72ad0eb84f6e8ff3e52be1411793",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [],
+    "model_request_sequences": [
+      2
+    ]
+  },
+  {
+    "case": "stage-02-skills_missing_original_63957595",
+    "trace": "evidence/stage-02-skills_missing_original_63957595/20261007-124728_62e7052f_turn01_63957595.jsonl",
+    "final_sequence": 8,
+    "final_type": "run_completed",
+    "conversation_id": "62e7052f32964c13a5d7a58103c074eb",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/refund-policy/SKILL.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6
+    ]
+  },
+  {
+    "case": "stage-02-skills_missing_original_e98ce63e",
+    "trace": "evidence/stage-02-skills_missing_original_e98ce63e/20261007-123826_22ab5f1a_turn01_e98ce63e.jsonl",
+    "final_sequence": 22,
+    "final_type": "run_completed",
+    "conversation_id": "22ab5f1a7aef40939364e43b5dabd4dc",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "list_files"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/refund-policy/SKILL.md",
+        "ok": true
+      },
+      {
+        "sequence": 9,
+        "name": "list_files",
+        "path": "data/policies",
+        "ok": true
+      },
+      {
+        "sequence": 14,
+        "name": "read_file",
+        "path": "data/policies/policy-from-oct.md",
+        "ok": true
+      },
+      {
+        "sequence": 15,
+        "name": "read_file",
+        "path": "data/policies/policy-before-oct.md",
+        "ok": true
+      },
+      {
+        "sequence": 19,
+        "name": "read_file",
+        "path": "skills/refund-policy/references/answer-template.md",
+        "ok": true
+      }
+    ],
+    "model_request_sequences": [
+      2,
+      6,
+      10,
+      16,
+      20
+    ]
+  }
+]

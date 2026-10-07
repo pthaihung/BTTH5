@@ -1,0 +1,96 @@
+[
+  {
+    "case": "threshold-8",
+    "command_arguments": [
+      "utf8",
+      "workspace/skills/csv-quality/scripts/check_csv.py",
+      "--input",
+      "workspace/data/workload.csv",
+      "--max-hours",
+      "8"
+    ],
+    "exit_code": 0,
+    "input_unchanged": true,
+    "input_sha256": "03b393907a491f4d33175d0ef304ec5fdee911152e9a3ee65697c918865ed42c",
+    "stdout_json": "threshold-8.json",
+    "stderr_file": "threshold-8.stderr.txt"
+  },
+  {
+    "case": "threshold-9",
+    "command_arguments": [
+      "utf8",
+      "workspace/skills/csv-quality/scripts/check_csv.py",
+      "--input",
+      "workspace/data/workload.csv",
+      "--max-hours",
+      "9"
+    ],
+    "exit_code": 0,
+    "input_unchanged": true,
+    "input_sha256": "03b393907a491f4d33175d0ef304ec5fdee911152e9a3ee65697c918865ed42c",
+    "stdout_json": "threshold-9.json",
+    "stderr_file": "threshold-9.stderr.txt"
+  },
+  {
+    "case": "edge-0",
+    "command_arguments": [
+      "utf8",
+      "workspace/skills/csv-quality/scripts/check_csv.py",
+      "--input",
+      "workspace/data/workload-edge.csv",
+      "--max-hours",
+      "0"
+    ],
+    "exit_code": 0,
+    "input_unchanged": true,
+    "input_sha256": "656870011c9e48baed518c2c917abc4805f736bf6f9c141531affcbb5dee8b14",
+    "stdout_json": "edge-0.json",
+    "stderr_file": "edge-0.stderr.txt"
+  },
+  {
+    "case": "not-found",
+    "command_arguments": [
+      "utf8",
+      "workspace/skills/csv-quality/scripts/check_csv.py",
+      "--input",
+      "workspace/data/workload-not-found.csv",
+      "--max-hours",
+      "8"
+    ],
+    "exit_code": 1,
+    "input_unchanged": true,
+    "input_sha256": null,
+    "stdout_json": null,
+    "stderr_file": "not-found.stderr.txt"
+  },
+  {
+    "case": "missing-threshold",
+    "command_arguments": [
+      "utf8",
+      "workspace/skills/csv-quality/scripts/check_csv.py",
+      "--input",
+      "workspace/data/workload.csv"
+    ],
+    "exit_code": 2,
+    "input_unchanged": true,
+    "input_sha256": "03b393907a491f4d33175d0ef304ec5fdee911152e9a3ee65697c918865ed42c",
+    "stdout_json": null,
+    "stderr_file": "missing-threshold.stderr.txt"
+  },
+  {
+    "case": "invalid-threshold",
+    "command_arguments": [
+      "utf8",
+      "workspace/skills/csv-quality/scripts/check_csv.py",
+      "--input",
+      "workspace/data/workload.csv",
+      "--max-hours",
+      "NaN"
+    ],
+    "exit_code": 2,
+    "input_unchanged": true,
+    "input_sha256": "03b393907a491f4d33175d0ef304ec5fdee911152e9a3ee65697c918865ed42c",
+    "stdout_json": null,
+    "stderr_file": "invalid-threshold.stderr.txt"
+  }
+]

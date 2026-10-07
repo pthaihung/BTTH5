@@ -1,0 +1,2 @@
+usage: check_csv.py [-h] --input INPUT --max-hours MAX_HOURS
+check_csv.py: error: argument --max-hours: Ngưỡng phải là số hữu hạn không âm.

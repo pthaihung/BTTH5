@@ -1,0 +1,13 @@
+stage-01-files
+.............................                                            [100%]
+29 passed in 0.59s
+
+
+exit_code=0
+
+stage-02-skills
+...............................                                          [100%]
+31 passed in 0.84s
+
+
+exit_code=0

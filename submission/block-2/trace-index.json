@@ -1,0 +1,208 @@
+[
+  {
+    "case": "stage-03-bash_baseline_a2df02fc",
+    "trace": "evidence/stage-03-bash_baseline_a2df02fc/20261007-130705_4480c27c_turn01_a2df02fc.jsonl",
+    "conversation_id": "4480c27c976745cb91f99976b7e1355f",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "bash"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "bash",
+        "path": null,
+        "ok": true,
+        "exit_code": 0
+      },
+      {
+        "sequence": 9,
+        "name": "bash",
+        "path": null,
+        "ok": true,
+        "exit_code": 0
+      }
+    ],
+    "request_sequences": [
+      2,
+      6,
+      10
+    ],
+    "final_sequence": 12,
+    "report": null,
+    "input_unchanged": true
+  },
+  {
+    "case": "stage-04-script-skill_8_cfc8fe7d",
+    "trace": "evidence/stage-04-script-skill_8_cfc8fe7d/20261007-130751_c44d6c1f_turn01_cfc8fe7d.jsonl",
+    "conversation_id": "c44d6c1f23e9452f94520a92798d8dca",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "bash"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/csv-quality/SKILL.md",
+        "ok": true,
+        "exit_code": null
+      },
+      {
+        "sequence": 10,
+        "name": "read_file",
+        "path": "data/workload.csv",
+        "ok": true,
+        "exit_code": null
+      },
+      {
+        "sequence": 11,
+        "name": "read_file",
+        "path": "skills/csv-quality/references/report-template.md",
+        "ok": true,
+        "exit_code": null
+      },
+      {
+        "sequence": 15,
+        "name": "bash",
+        "path": null,
+        "ok": true,
+        "exit_code": 0
+      },
+      {
+        "sequence": 19,
+        "name": "write_file",
+        "path": "output/workload.md",
+        "ok": true,
+        "exit_code": null
+      }
+    ],
+    "request_sequences": [
+      2,
+      6,
+      12,
+      16,
+      20
+    ],
+    "final_sequence": 22,
+    "report": "evidence/stage-04-script-skill_8_cfc8fe7d/workspace/output/workload.md",
+    "input_unchanged": true
+  },
+  {
+    "case": "stage-04-script-skill_9_0a9e0ba0",
+    "trace": "evidence/stage-04-script-skill_9_0a9e0ba0/20261007-130827_8f2a85e6_turn01_0a9e0ba0.jsonl",
+    "conversation_id": "8f2a85e693aa4a739b5a88ad8e7c3999",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "bash"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/csv-quality/SKILL.md",
+        "ok": true,
+        "exit_code": null
+      },
+      {
+        "sequence": 9,
+        "name": "read_file",
+        "path": "skills/csv-quality/references/report-template.md",
+        "ok": true,
+        "exit_code": null
+      },
+      {
+        "sequence": 13,
+        "name": "bash",
+        "path": null,
+        "ok": true,
+        "exit_code": 0
+      },
+      {
+        "sequence": 17,
+        "name": "write_file",
+        "path": "output/workload.md",
+        "ok": true,
+        "exit_code": null
+      }
+    ],
+    "request_sequences": [
+      2,
+      6,
+      10,
+      14,
+      18
+    ],
+    "final_sequence": 20,
+    "report": "evidence/stage-04-script-skill_9_0a9e0ba0/workspace/output/workload.md",
+    "input_unchanged": true
+  },
+  {
+    "case": "stage-04-script-skill_missing_ff91b8a7",
+    "trace": "evidence/stage-04-script-skill_missing_ff91b8a7/20261007-130859_e2339429_turn01_ff91b8a7.jsonl",
+    "conversation_id": "e23394299a6e4b5cb3a8f72a6368a607",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "bash"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/csv-quality/SKILL.md",
+        "ok": true,
+        "exit_code": null
+      }
+    ],
+    "request_sequences": [
+      2,
+      6
+    ],
+    "final_sequence": 8,
+    "report": null,
+    "input_unchanged": true
+  },
+  {
+    "case": "stage-04-script-skill_not-found_31fc48a9",
+    "trace": "evidence/stage-04-script-skill_not-found_31fc48a9/20261007-130919_4b48274b_turn01_31fc48a9.jsonl",
+    "conversation_id": "4b48274b7e734718bcdd76cb44f140c0",
+    "first_snapshot_clean": true,
+    "schema_tools": [
+      "read_file",
+      "write_file",
+      "bash"
+    ],
+    "tool_results": [
+      {
+        "sequence": 5,
+        "name": "read_file",
+        "path": "skills/csv-quality/SKILL.md",
+        "ok": true,
+        "exit_code": null
+      },
+      {
+        "sequence": 9,
+        "name": "bash",
+        "path": null,
+        "ok": true,
+        "exit_code": 1
+      }
+    ],
+    "request_sequences": [
+      2,
+      6,
+      10
+    ],
+    "final_sequence": 12,
+    "report": null,
+    "input_unchanged": true
+  }
+]
